@@ -53,3 +53,51 @@ a {
   transition: all linear 0.4s;
 }
 /* =========navber ends========= */
+/* ========expart css start here==== */
+#expart {
+  margin-bottom: 63px;
+}
+.expart_content {
+  display: flex;
+  justify-content: space-between;
+}
+.expart_item {
+  display: flex;
+  column-gap: 33px;
+}
+.expart_logo {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(16, 28, 61, 0.1);
+}
+.expart_main_logo {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.expart_main_logo i {
+  font-size: 24px;
+  color: #101c3d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.expart_content_text h2 {
+  color: #0d152e;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+.expart_content_text p {
+  color: #81838c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 255px;
+}
+/* ========expart css end here==== */
