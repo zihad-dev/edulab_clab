@@ -202,3 +202,214 @@ a {
   background: #3c50e0;
 }
 /* ========expand css end here==== */
+/* ========libary css start here==== */
+#libary {
+  background-color: #ebf3ff;
+  margin-bottom: 80px;
+}
+.libary_header {
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.libary_header_left h4 {
+  color: #6483f6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.libary_header_left h2 {
+  color: #0d152e;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 30px;
+}
+.libary_header_left p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 575px;
+}
+.laibary_header_right {
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+  column-gap: 14px;
+}
+.laibary_header_right form input {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 570px;
+  border-radius: 24px;
+  border: 1px solid #dadada;
+  background: #fff;
+  padding: 8px 0 8px 24px;
+}
+.laibary_header_right i {
+  padding: 16px 27px;
+  border-radius: 24px;
+  background-color: #3c50e0;
+  font-size: 16px;
+  color: #fff;
+}
+/* =====================libary box============ */
+.libary_content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+.libary_box {
+  width: 370px;
+  height: 624px;
+  border-radius: 8px;
+  background: #fff;
+}
+.libary_box_img {
+  width: 370px;
+  height: 256px;
+  border-radius: 8px 8px 0px 0px;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.libary_box_images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.libary_img_icon {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  border-radius: 50%;
+}
+.libary_img_icon i {
+  font-size: 24px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #3c50e0;
+}
+.libary_box_text {
+  padding: 30px;
+}
+.libary_box_head h3 {
+  color: #0d152e;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  max-width: 306px;
+  margin-bottom: 35px;
+}
+.libary_box_user_item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.libary_box_user_item span {
+  color: #0d152e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.libary_box_user_item i {
+  margin-right: 14px;
+}
+.libary_box_user_item :nth-child(1) i {
+  color: #6483f6;
+  font-size: 15px;
+}
+.libary_box_user_item :nth-child(2) i {
+  color: #f07867;
+  font-size: 18px;
+}
+.libart_box_line {
+  width: 274px;
+  height: 1px;
+  background: #efded5;
+  margin: 0 auto;
+}
+.libary_box_name {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.libary_box_name_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.libary_name_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.libary_box_name_text h4 {
+  color: #0d152e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.libary_box_name_text p {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.libary_box_button {
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-around;
+}
+.libary_box_button span {
+  color: #0d152e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 8px 14px;
+  background-color: #ebf3ff;
+  border-radius: 24px;
+}
+.libary_box_button a {
+  color: #0d152e;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 13px 25px;
+  border-radius: 24px;
+  border: 1px solid #ebf3ff;
+}
+.libary_btn {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.libary_btn a {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 28px;
+  background: #3c50e0;
+  padding: 17px 39px;
+}
+/* ========libary css end here==== */
