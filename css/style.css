@@ -413,3 +413,119 @@ a {
   padding: 17px 39px;
 }
 /* ========libary css end here==== */
+/* ========expart css start here==== */
+#expart-two{
+  padding-top: 152px;
+  padding-bottom: 132px;
+}
+.expart_wrapper {
+  display: flex;
+  column-gap: 130px;
+  align-items: center;
+}
+
+.expart_content_text h4 {
+  color: #6483f6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.expart_content_text h2 {
+  color: #0d152e;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  max-width: 310px;
+  margin-bottom: 28px;
+}
+.expart_content_text h5 {
+  color: #0d152e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 470px;
+  margin-bottom: 18px;
+}
+.expart_content_text p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 470px;
+}
+.expart_box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+  position: relative;
+}
+.expart_box_bg {
+  position: absolute;
+  top: -25px;
+  left: -35px;
+  z-index: 0;
+}
+.expart_box_item {
+  width: 570px;
+  height: 176px;
+  border-radius: 8px;
+  background: #ebf3ff;
+  transition: all linear 0.4s;
+
+  position: relative;
+  z-index: 999;
+}
+.expart_box_item :hover {
+  background: #3c50e0;
+  border-radius: 8px;
+}
+.expart_box_content {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  padding: 32px;
+}
+.expart_box_icon {
+  width: 112px;
+  height: 112px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.expart_box_icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.expart_box_text h4 {
+  color: #0d152e;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 8px;
+  transition: all linear 0.4s;
+}
+.expart_box_item :hover h4 {
+  color: #fff;
+}
+.expart_box_text p {
+  color: #0d152e;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 310px;
+  transition: all linear 0.4s;
+}
+.expart_box_item :hover p {
+  color: #fff;
+}
+/* ========expart css end here==== */
